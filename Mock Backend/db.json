@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Guus",
+      "email": "guus@email.com",
+      "level": "intermediate"
+    }
+  ],
+
+  "marathons": [
+    {
+      "id": 1,
+      "name": "Amsterdam Marathon",
+      "location": "Amsterdam",
+      "date": "2025-10-19",
+      "distance": 42.195
+    },
+    {
+      "id": 2,
+      "name": "Rotterdam Marathon",
+      "location": "Rotterdam",
+      "date": "2025-04-13",
+      "distance": 42.195
+    }
+  ],
+
+  "trainingPlans": [
+    {
+      "id": 1,
+      "userId": 1,
+      "marathonId": 1,
+      "weeks": 4,
+      "startDate": "2025-06-01"
+    }
+  ],
+
+  "trainingSessions": [
+    { "id": 1, "trainingPlanId": 1, "week": 1, "day": "Tuesday", "distance": 8, "type": "easy run" },
+    { "id": 2, "trainingPlanId": 1, "week": 1, "day": "Sunday", "distance": 12, "type": "long run" },
+
+    { "id": 3, "trainingPlanId": 1, "week": 2, "day": "Tuesday", "distance": 9, "type": "easy run" },
+    { "id": 4, "trainingPlanId": 1, "week": 2, "day": "Sunday", "distance": 14, "type": "long run" },
+
+    { "id": 5, "trainingPlanId": 1, "week": 3, "day": "Tuesday", "distance": 10, "type": "tempo run" },
+    { "id": 6, "trainingPlanId": 1, "week": 3, "day": "Sunday", "distance": 16, "type": "long run" },
+
+    { "id": 7, "trainingPlanId": 1, "week": 4, "day": "Tuesday", "distance": 8, "type": "easy run" },
+    { "id": 8, "trainingPlanId": 1, "week": 4, "day": "Sunday", "distance": 18, "type": "long run" }
+  ]
+}
