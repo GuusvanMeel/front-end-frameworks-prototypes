@@ -1,51 +1,207 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Guus",
       "email": "guus@email.com",
       "level": "intermediate"
     }
   ],
-
   "marathons": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Amsterdam Marathon",
       "location": "Amsterdam",
       "date": "2025-10-19",
       "distance": 42.195
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Rotterdam Marathon",
       "location": "Rotterdam",
       "date": "2025-04-13",
       "distance": 42.195
+    },
+    {
+      "id": "3",
+      "name": "Eindhoven Marathon",
+      "location": "Eindhoven",
+      "date": "2025-10-12",
+      "distance": 42.195
+    },
+    {
+      "id": "4",
+      "name": "Utrecht Marathon",
+      "location": "Utrecht",
+      "date": "2025-05-18",
+      "distance": 42.195
+    },
+    {
+      "id": "5",
+      "name": "Berlin Marathon",
+      "location": "Berlin",
+      "date": "2025-09-28",
+      "distance": 42.195
+    },
+    {
+      "id": "6",
+      "name": "Paris Marathon",
+      "location": "Paris",
+      "date": "2025-04-06",
+      "distance": 42.195
+    },
+    {
+      "id": "7",
+      "name": "London Marathon",
+      "location": "London",
+      "date": "2025-04-27",
+      "distance": 42.195
+    },
+    {
+      "id": "8",
+      "name": "New York Marathon",
+      "location": "New York",
+      "date": "2025-11-02",
+      "distance": 42.195
+    },
+    {
+      "id": "9",
+      "name": "Tokyo Marathon",
+      "location": "Tokyo",
+      "date": "2025-03-02",
+      "distance": 42.195
+    },
+    {
+      "id": "10",
+      "name": "Rome Marathon",
+      "location": "Rome",
+      "date": "2025-03-23",
+      "distance": 42.195
     }
   ],
-
   "trainingPlans": [
     {
-      "id": 1,
+      "id": "11111111-1111-1111-1111-111111111111",
       "userId": 1,
       "marathonId": 1,
       "weeks": 4,
       "startDate": "2025-06-01"
+    },
+    {
+      "id": "22222222-2222-2222-2222-222222222222",
+      "userId": 1,
+      "marathonId": 2,
+      "weeks": 6,
+      "startDate": "2025-01-15"
+    },
+    {
+      "id": "33333333-3333-3333-3333-333333333333",
+      "userId": 1,
+      "marathonId": 3,
+      "weeks": 8,
+      "startDate": "2025-02-01"
+    },
+    {
+      "id": "44444444-4444-4444-4444-444444444444",
+      "userId": 1,
+      "marathonId": 5,
+      "weeks": 10,
+      "startDate": "2025-03-01"
+    },
+    {
+      "id": "b18afdbd-4e81-44a1-8a7a-9e16013d8f5d",
+      "userId": 1,
+      "marathonId": 4,
+      "weeks": 1,
+      "startDate": "2026-02-27"
+    },
+    {
+      "id": "98b1c61e-023a-4ba0-8f9b-a0ded968036f",
+      "userId": 1,
+      "marathonId": 8,
+      "weeks": 1,
+      "startDate": "2026-02-27"
+    },
+    {
+      "id": "96b35486-e02b-450f-84d4-95090982c436",
+      "userId": 1,
+      "marathonId": 6,
+      "weeks": 1,
+      "startDate": "2026-02-27"
     }
   ],
-
   "trainingSessions": [
-    { "id": 1, "trainingPlanId": 1, "week": 1, "day": "Tuesday", "distance": 8, "type": "easy run" },
-    { "id": 2, "trainingPlanId": 1, "week": 1, "day": "Sunday", "distance": 12, "type": "long run" },
-
-    { "id": 3, "trainingPlanId": 1, "week": 2, "day": "Tuesday", "distance": 9, "type": "easy run" },
-    { "id": 4, "trainingPlanId": 1, "week": 2, "day": "Sunday", "distance": 14, "type": "long run" },
-
-    { "id": 5, "trainingPlanId": 1, "week": 3, "day": "Tuesday", "distance": 10, "type": "tempo run" },
-    { "id": 6, "trainingPlanId": 1, "week": 3, "day": "Sunday", "distance": 16, "type": "long run" },
-
-    { "id": 7, "trainingPlanId": 1, "week": 4, "day": "Tuesday", "distance": 8, "type": "easy run" },
-    { "id": 8, "trainingPlanId": 1, "week": 4, "day": "Sunday", "distance": 18, "type": "long run" }
+    {
+      "id": "sess-1",
+      "trainingPlanId": "11111111-1111-1111-1111-111111111111",
+      "week": 1,
+      "day": "Tuesday",
+      "distance": 8,
+      "type": "easy run"
+    },
+    {
+      "id": "sess-2",
+      "trainingPlanId": "11111111-1111-1111-1111-111111111111",
+      "week": 1,
+      "day": "Sunday",
+      "distance": 12,
+      "type": "long run"
+    },
+    {
+      "id": "sess-3",
+      "trainingPlanId": "22222222-2222-2222-2222-222222222222",
+      "week": 1,
+      "day": "Wednesday",
+      "distance": 6,
+      "type": "easy run"
+    },
+    {
+      "id": "e034cebd-21fc-4044-b653-47e5dc7c2c41",
+      "trainingPlanId": "b18afdbd-4e81-44a1-8a7a-9e16013d8f5d",
+      "week": 1,
+      "day": "Tuesday",
+      "distance": 8,
+      "type": "easy run"
+    },
+    {
+      "id": "af1a7c4b-0100-454b-9f3e-2a1dd344fd68",
+      "trainingPlanId": "98b1c61e-023a-4ba0-8f9b-a0ded968036f",
+      "week": 1,
+      "day": "Thursday",
+      "distance": 8,
+      "type": "easy run"
+    },
+    {
+      "id": "f00c33ae-670c-41a9-98d9-37620adbe01b",
+      "trainingPlanId": "96b35486-e02b-450f-84d4-95090982c436",
+      "week": 1,
+      "day": "Tuesday",
+      "distance": 8,
+      "type": "easy run"
+    },
+    {
+      "id": "37c53c1d-8142-43ef-ac0c-86a2fb3f911f",
+      "trainingPlanId": "11111111-1111-1111-1111-111111111111",
+      "week": 12,
+      "day": "Saturday",
+      "distance": 8,
+      "type": "easy run"
+    },
+    {
+      "id": "436efc4f-5525-4621-b641-b39452deade1",
+      "trainingPlanId": "11111111-1111-1111-1111-111111111111",
+      "week": 1,
+      "day": "Wednesday",
+      "distance": 8,
+      "type": "easy run"
+    },
+    {
+      "id": "3de5b373-3ea2-4cce-a9d1-a1458f18afc6",
+      "trainingPlanId": "33333333-3333-3333-3333-333333333333",
+      "week": 1,
+      "day": "Tuesday",
+      "distance": 8,
+      "type": "easy run"
+    }
   ]
 }
