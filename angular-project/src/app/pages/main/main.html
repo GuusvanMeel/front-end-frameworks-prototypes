@@ -1,0 +1,25 @@
+<section class="marathons-page">
+
+  <h1>Available Marathons</h1>
+
+  <div class="marathon-list">
+
+   @for (marathon of marathons; track marathon.id) {
+  <div class="marathon-card">
+
+    <h2>{{ marathon.name }}</h2>
+
+    <p>📍 {{ marathon.location }}</p>
+    <p>📅 {{ marathon.date }}</p>
+    <p>🏃 {{ marathon.distance }} km</p>
+
+    <button class="details-btn">
+      View Details
+    </button>
+
+  </div>
+}
+
+  </div>
+
+</section>
